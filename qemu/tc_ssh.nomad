@@ -12,7 +12,7 @@ job "j1" {
       }
 
       artifact {
-        source = "«replace with path to tinycore.qcow2»"
+        source = "https://github.com/eduardosramos/nomad_example_jobs/blob/main/qemu/tinycore.qcow2"
       }
 
       resources {
